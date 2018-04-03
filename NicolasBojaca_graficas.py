@@ -9,4 +9,4 @@ tpy = pyt[:,1]#toma los valores de los tiempos en los cuales se generan los nume
 plt.plot(Npp, tpp, label = "datos de c++")
 plt.plot(Npy, tpy, label = "datos de python")
 plt.legend()
-plt.show()
+plt.savefig("cpp_vs_python")
